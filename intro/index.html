@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>eHA Academy</title>
+    <style>
+      body {
+        font-family: Helvetica, sans-serif;
+      }
+      #outer-container {
+        width: 60%;
+        min-width: 400px;
+        margin: 70px auto;
+        border: 7px solid #0090fc;
+        border-radius: 20px;
+      }
+
+      #top-bar {
+        width: 100%;
+        border-bottom: 7px solid #0090fc;
+      }
+
+      .circles {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 20px;
+        background-color: #0090fc;
+        margin: 10px;
+      }
+
+      #logo-container {
+        width: 50%;
+        margin: 100px auto;
+      }
+
+      #logo {
+        display: block;
+        width: 300px;
+        margin: 30px auto;
+      }
+
+      #text {
+        text-align: center;
+        line-height: 40px;
+        color: #666;
+        font-weight: 400;
+        font-size: 1.5em;
+      }
+
+      #button {
+        text-align: center;
+        margin: 100px auto;
+        color: white;
+        width: fit-content;
+        background-color: #0090fc;
+        border-radius: 50px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: 1s;
+      }
+
+      #button:hover {
+        background-color: #008ffcaf;
+        transition: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="outer-container">
+      <div id="top-bar">
+        <span class="circles"></span> <span class="circles"></span>
+        <span class="circles"></span>
+      </div>
+
+      <div id="logo-container">
+        <img id="logo" src="assets/images/logo.png" />
+      </div>
+
+      <p id="text">
+        eHealth Africa’s mission is to build stronger health systems through the
+        design and <br />
+        implementation of data-driven solutions that respond to local needs and
+        <br />
+        provide underserved communities with tools to lead healthier lives.
+      </p>
+
+      <div id="button">JOIN THE ACADEMY</div>
+    </div>
+  </body>
+</html>
