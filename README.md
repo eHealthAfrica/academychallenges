@@ -32,10 +32,10 @@
 ## Module 3: HTML/JS: Making webpages interactive
 
 - Get ready to make your webpages interactive
-- JS and the DOM
-- DOM access methods
-- DOM modification
-- DOM events
-- DOM animation
+- [JS and the DOM](https://github.com/eHealthAfrica/academychallenges/tree/master/module_3/01_js_and_the_dom)
+- [DOM access methods](https://github.com/eHealthAfrica/academychallenges/tree/master/module_3/02_dom_access_methods)
+- [DOM modification](https://github.com/eHealthAfrica/academychallenges/tree/master/module_3/03_dom_modification)
+- [DOM events](https://github.com/eHealthAfrica/academychallenges/tree/master/module_3/04_dom_events)
+- [DOM animation](https://github.com/eHealthAfrica/academychallenges/tree/master/module_3/05_dom_animation)
 - Using JS libraries in your webpage
 - Further learning
