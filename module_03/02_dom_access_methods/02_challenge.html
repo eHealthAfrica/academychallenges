@@ -52,6 +52,12 @@
         </div>
         
         <script>
+             var nameEl = document.getElementsByTagName("h1");
+        console.log("nameEl[0]");
+        
+       for (var i = 0; i < nameEl.length; i++){
+        nameEl[i].innerHTML = "Hello, World";
+       }
         </script>
     </body>
 </html>
