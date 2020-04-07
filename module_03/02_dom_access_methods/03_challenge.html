@@ -19,9 +19,13 @@
     <p><a href="http://homepages.wmich.edu/~mcgrew/nq.htm">See more</a></p>
     
     <script>
-        // Step 1: Store all doth that are inside lis in dothEls
-        var dothEls;
-        // Step 2: Iterate through them and change doth to does
-    </script>
+           // Step 1: Store all doth that are inside lis in dothEls
+        var dothEls = document.querySelectorAll("ul .doth");
+        // Step 2: Iterate through them and change doth to does 
+        console.log(dothEls[0]);
+        for (var i = 0; i < dothEls.length; i++){
+            dothEls[i].innerHTML  ="does";
+        }
+      </script>
     </body>
 </html>
